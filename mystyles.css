@@ -1,0 +1,151 @@
+.myHeader{
+    color: white;
+    font-family: 'Times New Roman', Times, serif !important;
+    text-size-adjust: 5% !important; 
+    
+}
+.myHeader2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.colorBlockW{
+    color: rgba(0, 100, 0, 0.578);
+}
+.colorBlockB{
+    color: rgb(255, 255, 255) !important;
+    filter: brightness(100%) !important;
+    font-size: 2cm;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 2cm;
+    padding-top: 6cm;
+}
+.firstImage{
+  filter: brightness(40%);
+}
+.logoAdjust{
+    height: 2cm!important;
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1320px;
+    }
+  }
+header.masthead2 {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/laughing\ copy.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+ 
+  header.masthead2 .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    filter: brightness(100%) !important;
+  }
+  .footers{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+  }
+
+    .common{
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      background-color: rgb(253, 253, 253);
+      margin: 5px;
+  }
+  .pretty{
+    background-color: rgb(225, 225, 225) !important;
+  }
+  .basicBody{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: rgb(114, 114, 114) !important;
+  }
+  .betterBody{
+    font-family: 'Times New Roman', Times, serif !important;
+  }
+
+  .fixedcolor {
+   color: darkgreen !important;
+  }
+  .icon1{
+    border-radius: 50% !important;
+    size: 1cm !important;
+    background-image: url("../assets/img/icon livin/heart.png") !important;
+    background-repeat: no-repeat;
+  }
+  .fixedfont{
+    font-family: 'Times New Roman', Times, serif !important;
+  }
+  .fixedfont2{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: rgb(216, 216, 216) !important;
+  }
+  .backGroundC{
+    background-color: rgb(27, 31, 27) !important;
+  }
+  .mainbackgroundC{
+    background-color: rgb(235, 235, 235) !important;
+    text-align: justify !important;
+    flex: 0 0 auto;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+  }
+
+  .imagehelp{
+    width: 40%;
+    float: right;
+  }
+  .imageTiny{
+    width: 4cm;
+    height: 4cm;
+  }
