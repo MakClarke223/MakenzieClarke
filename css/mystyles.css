@@ -145,3 +145,7 @@ header.masthead2 {
     width: 40%;
     float: right;
   }
+  .imageTiny{
+    width: 4cm;
+    height: 4cm;
+  }
